@@ -1,5 +1,5 @@
 <?php
-namespace markdunphy\Cassandra\Enum;
+namespace Behance\Cassandra\Enum;
 
 class ConsistencyEnum {
 	const CONSISTENCY_ANY = 0x0000;

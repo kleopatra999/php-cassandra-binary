@@ -1,5 +1,5 @@
 <?php
-namespace markdunphy\Cassandra\Enum;
+namespace Behance\Cassandra\Enum;
 
 class OpcodeEnum {
 	const ERROR = 0x00;

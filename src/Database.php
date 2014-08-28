@@ -1,12 +1,12 @@
 <?php
-namespace markdunphy\Cassandra;
-use markdunphy\Cassandra\Enum\ConsistencyEnum;
-use markdunphy\Cassandra\Enum\OpcodeEnum;
-use markdunphy\Cassandra\Exception\CassandraException;
-use markdunphy\Cassandra\Exception\ConnectionException;
-use markdunphy\Cassandra\Exception\QueryException;
-use markdunphy\Cassandra\Protocol\RequestFactory;
-use markdunphy\Cassandra\Protocol\Response\Rows;
+namespace Behance\Cassandra;
+use Behance\Cassandra\Enum\ConsistencyEnum;
+use Behance\Cassandra\Enum\OpcodeEnum;
+use Behance\Cassandra\Exception\CassandraException;
+use Behance\Cassandra\Exception\ConnectionException;
+use Behance\Cassandra\Exception\QueryException;
+use Behance\Cassandra\Protocol\RequestFactory;
+use Behance\Cassandra\Protocol\Response\Rows;
 
 class Database {
 

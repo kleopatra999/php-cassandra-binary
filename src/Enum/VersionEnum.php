@@ -1,5 +1,5 @@
 <?php
-namespace markdunphy\Cassandra\Enum;
+namespace Behance\Cassandra\Enum;
 
 class VersionEnum {
 	const REQUEST = 0x01;

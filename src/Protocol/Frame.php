@@ -1,5 +1,5 @@
 <?php
-namespace markdunphy\Cassandra\Protocol;
+namespace Behance\Cassandra\Protocol;
 
 class Frame {
 

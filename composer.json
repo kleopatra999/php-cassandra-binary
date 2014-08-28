@@ -1,5 +1,5 @@
 {
-	"name": "markdunphy/php-cassandra-binary",
+	"name": "behance/php-cassandra-binary",
 	"description": "PHP library for Cassandra database via a binary protocol",
 	"minimum-stability": "stable",
 	"license": "MIT",
@@ -21,7 +21,7 @@
   },
 	"autoload": {
 		"psr-4": {
-			"markdunphy\\Cassandra\\": "src/"
+			"Behance\\Cassandra\\": "src/"
 		}
 	}
 }

@@ -1,11 +1,11 @@
 <?php
-namespace markdunphy\Cassandra;
-use markdunphy\Cassandra\Cluster\Node;
-use markdunphy\Cassandra\Enum;
-use markdunphy\Cassandra\Exception\ConnectionException;
-use markdunphy\Cassandra\Protocol\Frame;
-use markdunphy\Cassandra\Protocol\Request;
-use markdunphy\Cassandra\Protocol\Response;
+namespace Behance\Cassandra;
+use Behance\Cassandra\Cluster\Node;
+use Behance\Cassandra\Enum;
+use Behance\Cassandra\Exception\ConnectionException;
+use Behance\Cassandra\Protocol\Frame;
+use Behance\Cassandra\Protocol\Request;
+use Behance\Cassandra\Protocol\Response;
 
 class Connection {
 

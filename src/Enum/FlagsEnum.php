@@ -1,5 +1,5 @@
 <?php
-namespace markdunphy\Cassandra\Enum;
+namespace Behance\Cassandra\Enum;
 
 class FlagsEnum {
 	const COMPRESSION = 0x01;

@@ -1,5 +1,5 @@
 <?php
-namespace markdunphy\Cassandra\Enum;
+namespace Behance\Cassandra\Enum;
 
 class ResultTypeEnum {
 	const VOID = 0x0001;

@@ -1,5 +1,5 @@
 <?php
-namespace markdunphy\Cassandra\Protocol\Response;
+namespace Behance\Cassandra\Protocol\Response;
 
 class Rows implements \Iterator, \Countable {
 

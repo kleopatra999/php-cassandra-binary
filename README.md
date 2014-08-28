@@ -23,7 +23,7 @@ Append dependency into composer.json
 	...
 	"require": {
 		...
-		"markdunphy/php-cassandra-binary": "dev-master"
+		"behance/php-cassandra-binary": "dev-master"
 	}
 	...
 ```
@@ -42,7 +42,7 @@ $nodes = [
 ];
 
 // Connect to database.
-$database = new Cassandra\Database($nodes, 'my_keyspace');
+$database = new Behance\Cassandra\Database($nodes, 'my_keyspace');
 $database->connect();
 
 // Run query.

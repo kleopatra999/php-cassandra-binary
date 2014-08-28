@@ -1,4 +1,4 @@
 <?php
-namespace markdunphy\Cassandra\Exception;
+namespace Behance\Cassandra\Exception;
 
 class CassandraException extends \Exception {}

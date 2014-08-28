@@ -1,7 +1,7 @@
 <?php
-namespace markdunphy\Cassandra\Protocol\Response\DataStream;
-use markdunphy\Cassandra\Enum\DataTypeEnum;
-use markdunphy\Cassandra\Protocol\Response\DataStream;
+namespace Behance\Cassandra\Protocol\Response\DataStream;
+use Behance\Cassandra\Enum\DataTypeEnum;
+use Behance\Cassandra\Protocol\Response\DataStream;
 
 final class TypeReader {
 

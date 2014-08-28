@@ -1,6 +1,6 @@
 <?php
-namespace markdunphy\Cassandra\Protocol;
-use markdunphy\Cassandra\Enum\DataTypeEnum;
+namespace Behance\Cassandra\Protocol;
+use Behance\Cassandra\Enum\DataTypeEnum;
 
 class BinaryData {
 

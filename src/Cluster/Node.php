@@ -1,7 +1,7 @@
 <?php
-namespace markdunphy\Cassandra\Cluster;
+namespace Behance\Cassandra\Cluster;
 
-use markdunphy\Cassandra\Exception\ConnectionException;
+use Behance\Cassandra\Exception\ConnectionException;
 
 class Node {
 

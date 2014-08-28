@@ -1,13 +1,13 @@
 <?php
-namespace markdunphy\Cassandra\Protocol;
-use markdunphy\Cassandra\Enum\DataTypeEnum;
-use markdunphy\Cassandra\Enum\ErrorCodesEnum;
-use markdunphy\Cassandra\Enum\OpcodeEnum;
-use markdunphy\Cassandra\Enum\ResultTypeEnum;
-use markdunphy\Cassandra\Exception\ResponseException;
-use markdunphy\Cassandra\Protocol\Response\DataStream;
-use markdunphy\Cassandra\Protocol\Response\DataStream\TypeReader;
-use markdunphy\Cassandra\Protocol\Response\Rows;
+namespace Behance\Cassandra\Protocol;
+use Behance\Cassandra\Enum\DataTypeEnum;
+use Behance\Cassandra\Enum\ErrorCodesEnum;
+use Behance\Cassandra\Enum\OpcodeEnum;
+use Behance\Cassandra\Enum\ResultTypeEnum;
+use Behance\Cassandra\Exception\ResponseException;
+use Behance\Cassandra\Protocol\Response\DataStream;
+use Behance\Cassandra\Protocol\Response\DataStream\TypeReader;
+use Behance\Cassandra\Protocol\Response\Rows;
 
 class Response {
 

@@ -1,7 +1,7 @@
 <?php
-namespace markdunphy\Cassandra;
-use markdunphy\Cassandra\Cluster\Node;
-use markdunphy\Cassandra\Exception\ClusterException;
+namespace Behance\Cassandra;
+use Behance\Cassandra\Cluster\Node;
+use Behance\Cassandra\Exception\ClusterException;
 
 class Cluster {
 
