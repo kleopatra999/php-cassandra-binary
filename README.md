@@ -1,9 +1,7 @@
 PHP library for Cassandra
 =========================
 
-<a href="https://codeclimate.com/github/evseevnn/php-cassandra-binary"><img src="https://codeclimate.com/github/evseevnn/php-cassandra-binary.png" /></a>
-<a href="https://scrutinizer-ci.com/g/evseevnn/php-cassandra-binary/"><img src="https://scrutinizer-ci.com/g/evseevnn/php-cassandra-binary/badges/quality-score.png?b=master" /></a>
-<a href="https://scrutinizer-ci.com/g/evseevnn/php-cassandra-binary/"><img src="https://scrutinizer-ci.com/g/evseevnn/php-cassandra-binary/badges/build.png?b=master" /></a>
+**Originally forked from [evseevnn](https://github.com/evseevnn/php-cassandra-binary).**2
 
 Cassandra client library for PHP, using the native binary protocol.
 
@@ -25,7 +23,7 @@ Append dependency into composer.json
 	...
 	"require": {
 		...
-		"evseevnn/php-cassandra-binary": "dev-master"
+		"behance/php-cassandra-binary": "dev-master"
 	}
 	...
 ```
@@ -44,7 +42,7 @@ $nodes = [
 ];
 
 // Connect to database.
-$database = new Cassandra\Database($nodes, 'my_keyspace');
+$database = new Behance\Cassandra\Database($nodes, 'my_keyspace');
 $database->connect();
 
 // Run query.
